@@ -504,6 +504,10 @@ background: none;
 overflow: auto;
 }
 
+.stContainer table th {
+    padding: 1em 1em 0 0;
+}
+
 .stContainer p {
 margin: 0;
 padding: 0 0 10px 0;

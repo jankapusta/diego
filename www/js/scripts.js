@@ -57,7 +57,7 @@ return
 }
 
 function closeSlide(n){
-	var rndCls = $(".slide").slideUp('slow', function(){
+	var rndCls = $(".slide").slideUp('fast', function(){
 	});
 }
 
