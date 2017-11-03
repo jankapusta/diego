@@ -4,7 +4,7 @@
 /* news ticker */
 @import url('../jquery-ticker/jquery-ticker.css');
 /* contact form */
-@import url('../contact-form/contact-panel.css');
+@import url('../contact-form/contact-panel.css?v=3');
 @import url('../contact-form/contact-form.css');
 /* supersized */
 @import url('../theme/supersized.shutter.css');
@@ -145,15 +145,42 @@ background: url(../images/bottom-shadow.png) repeat-x;
 background: #000;
 color: #fff;
 width: 100%;
-/* height: 75px; */
-height: 110px;
 overflow: hidden;
 margin: 0;
-padding: 0;
-position: fixed;
+    padding: 10px 10px 13px 10px;
 left: 0;
 top: 0;
 z-index: 2;
+}
+
+#header .spacer {
+    float: right;
+    width: 91px;
+    height: 21px;
+}
+#header .ticker {
+    width: 270px !important;
+}
+#header .ticker-wrapper.has-js {
+
+    position: relative !important;
+    float: right;
+    top: -2px;
+    width: auto !important;
+}
+
+#header .left .ticker-controls {
+    position: fixed !important;
+    top: 8px !important;
+    right: 10px !important;
+}
+#header .ticker-title {
+    position: absolute;
+}
+#header .ticker-content {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 /* 2.1 site name */
@@ -163,11 +190,11 @@ font-size: 45px;
 line-height: 45px;
 font-style: normal;
 font-weight: normal;
-padding: 0;
-/* margin: 22px 0 0 0; */
-margin: 57px 0 0 0;
+padding: 10px 0px 0px 0px;
+margin: 25px 0 0 0;
 color: #fff;
 text-align: center;
+    clear: both;
 }
 
 .site-name a {
@@ -180,11 +207,11 @@ color: #fff;
 
 /* 2.2 social links */
 .social-links-wrapper {
-position: absolute;
+/*position: absolute;*/
 width: auto;
 /* top: 3px; */
-top: 38px;
-left: 0;
+/*top: 38px;*/
+/*left: 0;*/
 padding: 0;
 color: #000;
 z-index: 2;
