@@ -144,7 +144,6 @@ background: url(../images/bottom-shadow.png) repeat-x;
 #header {
 background: #000;
 color: #fff;
-width: 100%;
 overflow: hidden;
 margin: 0;
     padding: 10px 10px 13px 10px;
@@ -532,7 +531,7 @@ overflow: auto;
 }
 
 .stContainer table th {
-    padding: 1em 1em 0 0;
+    padding: 0.4em 1em 0 0;
 }
 
 .stContainer p {
