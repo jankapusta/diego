@@ -3,25 +3,32 @@
 @media (max-width: 920px) {
 
     .slide {
-        height: 95% !important;
+        height: 90% !important;
         width: 100% !important;
         bottom: 20px;
         z-index: 1005;
+        overflow: auto;
+        padding: 0px 0px 25px 0px;
     }
 
     .slide .wrapper {
         width: 100% !important;
     }
 
+    .slide .post-left-top p {
+        text-align: justify;
+    }
     .slide .post-left-top {
         float: none;
         margin-bottom: 2em;
-        width: 90%;
+        width: auto !important;
+        padding: 0em 1em;
+        margin-right: 0;
     }
 
     .slide .container-full {
-        width: 100%;
-        padding: 0.5em 1.8em;
+        width: auto !important;
+        padding: 1.5em 0.5em;
     }
     .slide .container-full .last {
         /*margin-right: auto !important;*/
@@ -39,12 +46,13 @@
     }
 
     .slide .post-left-bottom {
-        width:90%;
+        width: 100%;
     }
 
     .stContainer div {
         width: auto;
         height: auto;
+        padding-right: 1em;
     }
     .stContainer #tabs-1 p {
 
@@ -52,7 +60,7 @@
 
     }
     .stContainer ul {
-        width: 100%;
+        width: auto !important;
         height: auto !important;
         margin-bottom:20px;
     }
